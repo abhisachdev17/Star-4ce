@@ -1,5 +1,18 @@
 # Star-4ce
 
+## Dependencies:
+
+1. node and npm: this are needed to run the program, npm is used to install additional dependencies. This can be downloaded from their respective websites
+2. Express.js: To create an http server, use: npm install express
+3. vectors: vectors are not present in Node.js by default, To install use: npm install vectors
+4. socket.io: for communication, use: npm install socket.io
+
+## How to run
+
+Once you have the dependencies installed run by the following command: node game_server.js
+
+This will host the game server on the localhost on port 5000. Visit the address on any browser and start playing!
+
 ## Introduction
 Star 4ce is a distributed online multiplayer game where players can compete with other players to obtain galactic supremacy. Each player has a starship that they can control using dragging the mouse in the direction they want to go. The player can also fire bullets using the space bar. If the bullet hits an opponent player, their health is decreased by one point. Each player is only allowed to take four bullet hits, after which the game is over for them. The health bar is displayed on the top left. Further, there are asteroids, which on impact can slow the player down. Bigger the asteroid, more time the player will spend in the slow-down state, which can give other players a chance to attack them. It makes the game more competitive.
 
